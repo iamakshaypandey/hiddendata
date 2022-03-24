@@ -1,0 +1,35 @@
+.hidden{
+  display: none;
+}
+
+body{
+  background-color: springgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;margin-top: 5rem;
+}
+
+.show-btn{
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  border-radius: 10rem;
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+.model{
+  background-color: #fff;
+}
+
+.text{
+  font-size: 2rem;
+}
+.hidden-close{
+  font-size: 2rem;
+  width: 4rem;
+  background-color: red;
+  color: #fff;
+}
